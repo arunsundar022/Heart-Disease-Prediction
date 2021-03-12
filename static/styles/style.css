@@ -1,0 +1,22 @@
+.nav{
+	background-color: #471447;
+	color: 	#ffffff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	font-size: 35px;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: #f3e9f5;
+}
+.sub{
+	left: 50%;
+}
+.field{
+	padding: 8px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
