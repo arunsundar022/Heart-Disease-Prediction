@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css')}}">
 </head>
 <body>
 	<div class="container">
@@ -116,14 +116,21 @@
                     <input class="button" type="Reset">
                     </p>
                 </div>
-		    <div id ="result" class="result has-text-centered">
-			<strong>{{result}}</strong>
-		</div>
+								<div id ="result" class="result has-text-centered">
+									<strong>{{result}}</strong>
+							 </div>
             </form>
+            
 
         </div>
 
         </div>
+        <div class="footer has-text-centered foot">
+            <p>Made with
+      <span role="img">❤️</span>
+      by Arun
+    </p>
+            </div>
 
 </body>
 </html>
